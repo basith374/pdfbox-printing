@@ -1,9 +1,12 @@
 #PDF Printing Example using PDFBOX
 
+
+##Running the code
+Make sure maven is installed. If not, go to [maven](http://maven.apache.org/) and install maven
+
 1. `git clone` and `cd` into the folder
-2. make sure maven is installed, if not goto [maven](http://maven.apache.org/) and install maven
-3. run `mvn install`
-4. run `mvn package`
-5. run `java -jar target/<executable>.jar`
+3. Run `mvn install`
+4. Run `mvn package`
+5. Run `java -jar target/<executable>.jar`
 
 the file name for <executable> is probably pdfbox-printing-1.0-SNAPSHOT-jar-with-dependencies.jar
